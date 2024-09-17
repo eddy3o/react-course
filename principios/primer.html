@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML</title>
+    <style>
+        /* Estilos CSS dentro del documento HTML */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .highlight {
+            background-color: #ff0;
+            padding: 0.5em;
+        }
+        button {
+            padding: 0.5em 1em;
+            font-size: 1em;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 0.25em;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Primera Página HTML</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Introducción</h2>
+            <p>Este es un párrafo de ejemplo para mostrar cómo se puede usar HTML con CSS y JavaScript.</p>
+            <p class="highlight">Este párrafo tiene un fondo amarillo gracias a una clase CSS.</p>
+            <button id="miBoton">Haz clic en mí</button>
+        </section>
+        <section>
+            <h2>Lista de Ejemplo</h2>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+        </section>
+    </main>
+    <script>
+        // Script JavaScript dentro del documento HTML
+        document.getElementById('miBoton').addEventListener('click', function() {
+            alert('¡Has hecho clic en el botón!');
+        });
+    </script>
+</body>
+</html>
