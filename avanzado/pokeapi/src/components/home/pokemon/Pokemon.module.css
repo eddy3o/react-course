@@ -1,0 +1,41 @@
+.card {
+  color: black;
+}
+
+.cards {
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.card > div {
+  padding-inline: 0.5rem;
+}
+
+.image {
+  background: #f4f5f4;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.names {
+  font-weight: bold;
+  font-size: large;
+}
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

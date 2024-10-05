@@ -1,0 +1,44 @@
+.container {
+  background: #2b2b2b;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section {
+  display: flex;
+}
+
+.section > div {
+  width: 50%;
+}
+
+.first {
+  font-size: large;
+}
+
+.search {
+  display: flex;
+  gap: 5%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.search > input {
+  width: 70%;
+  border-radius: 5px;
+}
+
+.search > button {
+  border: none;
+  border-radius: 5px;
+  background: #f05f34;
+  width: 10%;
+  height: 2.2rem;
+}
+
+.text {
+  padding: 1rem;
+  background: #38a454;
+  border-radius: 5px;
+}
